@@ -1,0 +1,33 @@
+#File: main.py
+
+#Author: Samuele
+
+
+
+
+
+import turtle
+
+window = turtle.Screen()
+raffaello = turtle.Turtle()
+raffaello.color('red')
+
+
+
+for i in range(4):
+ raffaello.forward(50)
+ raffaello.left(90)
+
+
+
+
+donatello = turtle.Turtle()
+
+for i in range(8):
+ donatello.color('purple')
+ donatello.forward(50)
+ donatello.right(45)
+
+
+
+window.mainloop()
